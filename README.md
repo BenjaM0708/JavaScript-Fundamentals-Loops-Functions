@@ -1,41 +1,41 @@
-# JavaScript Advanced Practice – Loops & Functions
+# JavaScript Practice – Loops & Functions (Intermediate)
 
 ## 📌 Overview
-This repository contains **advanced JavaScript homework** focused strictly on:
+This repository contains **intermediate JavaScript homework** focused on:
 - Loops and Iteration
 - Functions
 
-The exercises are designed to improve **algorithmic thinking**, **data processing**, and **code structuring** using only loops and functions.
+The exercises are designed to help students practice **iteration logic**, **function structure**, and **basic algorithms** using plain JavaScript.
 
-⚠️ No conditionals and no array methods are allowed.
+⚠️ No array methods are allowed.
 
 ---
 
 ## 🎯 Learning Objectives
 By completing this assignment, students will be able to:
-- Design reusable and modular functions
-- Solve problems using only loops
-- Work with arrays and strings using iteration
-- Build simple algorithms without built-in helpers
-- Understand time complexity at a basic level
+- Write reusable functions
+- Use loops to process data
+- Iterate over arrays and strings
+- Build simple algorithms step by step
+- Improve logical thinking using JavaScript fundamentals
 
 ---
 
 ## 🛠️ Technical Constraints
 - JavaScript (ES6)
 - Run using Node.js
-- No `if`, `else`, `switch`, or ternary operators
 - No array methods (`map`, `filter`, `reduce`, `forEach`)
-- Only:
+- Allowed:
   - functions
-  - loops (`for`, `while`, `do...while`)
+  - loops (`for`, `while`)
   - variables and operators
+  - basic conditionals (`if`)
 
 ---
 
 ## 📂 Project Structure
 ```
-📦 js-advanced-loops-functions
+📦 js-loops-functions-intermediate
  ┣ 📜 app.js
  ┣ 📜 README.md
 ```
@@ -51,23 +51,21 @@ node app.js
 
 ## 🧪 Exercises
 
-### 1️⃣ Custom Array Length
+### 1️⃣ Array Length
 Create a function that:
 - Receives an array
-- Calculates its length **without using `.length`**
-- Returns the length
+- Returns the number of elements in the array
 
 ---
 
-### 2️⃣ Manual Index Access
+### 2️⃣ Print Elements with Index
 Create a function that:
 - Receives an array
-- Prints each element **with its index**
-- Index must be calculated manually using a loop
+- Prints each element with its index
 
 ---
 
-### 3️⃣ Array Sum (No Helpers)
+### 3️⃣ Sum of Numbers
 Create a function that:
 - Receives an array of numbers
 - Uses a loop to calculate the sum
@@ -75,23 +73,22 @@ Create a function that:
 
 ---
 
-### 4️⃣ Maximum Value
+### 4️⃣ Find the Largest Number
 Create a function that:
 - Receives an array of numbers
-- Finds the maximum value using only loops
-- Returns the maximum
+- Finds and returns the largest number
 
 ---
 
 ### 5️⃣ Reverse an Array
 Create a function that:
 - Receives an array
-- Returns a **new reversed array**
-- Do not modify the original array
+- Returns a new array in reverse order
+- Do not use array methods
 
 ---
 
-### 6️⃣ Count Occurrences
+### 6️⃣ Count a Value
 Create a function that:
 - Receives an array and a value
 - Counts how many times the value appears
@@ -99,23 +96,14 @@ Create a function that:
 
 ---
 
-### 7️⃣ String Iteration
+### 7️⃣ String Loop
 Create a function that:
 - Receives a string
-- Counts how many characters it contains
-- Do not use `.length`
+- Prints each character one by one using a loop
 
 ---
 
-### 8️⃣ Character Frequency
-Create a function that:
-- Receives a string
-- Returns an object with each character and its count
-- Use only loops
-
----
-
-### 9️⃣ Pattern Generator
+### 8️⃣ Pattern Printing
 Create a function that:
 - Receives a number `n`
 - Prints the following pattern:
@@ -130,38 +118,20 @@ For `n = 4`:
 
 ---
 
-### 🔟 Nested Loops Challenge
-Create a function that:
-- Receives a number `n`
-- Prints a square of `n x n` using `#`
-
-For `n = 3`:
-```
-###
-###
-###
-```
-
----
-
-## 📚 Rules Recap
-❌ No conditionals  
+## 📚 Rules
 ❌ No array methods  
-❌ No `.length` (where specified)  
-
-✅ Only loops  
-✅ Only functions  
+✅ Loops and functions only  
+✅ Clean and readable code  
+✅ Comments are encouraged  
 
 ---
 
-## 🚀 Bonus (Expert)
-- Implement all functions without using `break` or `continue`
-- Analyze time complexity of each function in comments
-- Solve all exercises using only `while` loops
+## 🚀 Bonus (Optional)
+- Solve the exercises using `while` instead of `for`
+- Add multiple test cases
+- Try to reuse functions where possible
 
 ---
 
 ## 🧠 Author
-Advanced JavaScript homework for algorithmic practice.
-
-Good luck — this one is meant to hurt a little 😈
+JavaScript homework for intermediate students.
