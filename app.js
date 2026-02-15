@@ -40,20 +40,19 @@ console.log(' ');
 
 // 4️⃣ Find the Largest Number
 
-/*function largerNumber(n){
-
-    for (let num of n){
-       if (){
-        
+function largerNumber(n){
+  
+    let largest = 0;
+    for (let i = 0; i < n.length; i++){
+       if (n[i] > largest){
+        largest = n[i];
        }
   }
+  console.log(largest);
+}
 
-  console.log(sum);
-
-};
-
-reverseArray([182, 54, 155, 62,]);
-console.log(' ');*/
+largerNumber([5,1,9,7,3,28,46,19,73,82,461,576,348,535,241,354,214]);
+console.log(' ');
 
 // 5️⃣ Reverse an Array
 
@@ -100,16 +99,16 @@ console.log(' ');
 
 function patternPrinting(n){
   let i = 0;
-  let nLinea = '';
+  let nLine = '';
   
   while (i <= n){
-    console.log(nLinea);
-    nLinea += '*';
+    console.log(nLine);
+    nLine += '*';
     i++;
   }
 };
 
-patternPrinting(5);
+patternPrinting(3);
 console.log(' ');
 
 
