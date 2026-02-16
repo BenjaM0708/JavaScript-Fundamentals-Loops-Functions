@@ -56,10 +56,14 @@ console.log(' ');
 
 // 5️⃣ Reverse an Array
 
+// 1 2 3 4
+
 function reverseArray(n){
   let array = [];
-    for (let item of n){
-       array.unshift(item);
+  let j = 0;
+    for (let i = n.length - 1; i >= 0; i--){
+       array[j] = n[i];
+       j++;
   }
 
   console.log(array);
@@ -101,9 +105,9 @@ function patternPrinting(n){
   let i = 0;
   let nLine = '';
   
-  while (i <= n){
-    console.log(nLine);
+  while (i < n){
     nLine += '*';
+    console.log(nLine);
     i++;
   }
 };
